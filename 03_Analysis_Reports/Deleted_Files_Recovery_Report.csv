@@ -1,0 +1,6 @@
+File_ID,Original_Name,Carved_Filename,File_Type,Offset_Hex,Size_Bytes,Recovery_Status,MD5_Hash,Investigative_Significance
+DEL-001,Confidential_Q3_Financials.docx,carved_zip_001.zip,DOCX (ZIP Container),0x04A20000,148224,Fully Recovered (100%),7d4f82a1b9e54109c138ef902b3651fa,"Internal financial audit report leaked prior to quarterly disclosure"
+DEL-002,Employee_PII_Database.csv,carved_txt_002.txt,CSV / Plaintext,0x06180000,38912,Fully Recovered (100%),a2b8e39014df58a1c97f443b81109dc5,"Contains 450 employee records including Aadhaar, phone, and salary"
+DEL-003,Prototype_Schematic_v2.png,carved_png_003.png,PNG Image,0x08C40000,412890,Fully Recovered (100%),6c10943efa8148b29c0d381ae2128704,"Proprietary hardware engineering diagram with confidential watermark"
+DEL-004,Offshore_Account_Wiring.pdf,carved_pdf_004.pdf,PDF Document,0x0B310000,215040,Fully Recovered (100%),3e58b190ac4712d989f0224156ce8129,"Wire transfer authorization sheet linking insider to offshore shell entity"
+

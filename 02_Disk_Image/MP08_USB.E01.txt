@@ -1,0 +1,63 @@
+Created By AccessData® FTK® Imager / Exterro FTK® Imager Version 8.3.0.27
+
+Case Information:
+Case Number: MP08-2026-ISDF
+Evidence Number: EVD-08-USB-01
+Unique Description: SanDisk Ultra 3.0 USB Flash Drive (Forensic Physical Drive Evidence)
+Examiner: Nissy Pragna (URK25DS3055), Prasanna Tudu (URK25DS3056), Christeena Biju (URK25DS3022), Rajeswari R (URK25DS3006), Akshaya MK (URK25DS3033)
+Notes: Micro Project 08 - Disk Forensics Acquisition under ISO/IEC 27037 forensic standards and BSA 2023 compliance. Acquired with hardware/software write-blocking enabled.
+
+----------------------------------------------------------------
+
+Physical Evidentiary Device Information:
+Device Make/Model: SanDisk Ultra USB 3.0
+Device Interface: USB 3.0 Mass Storage Device
+Serial Number: 4C530001280424110321
+Device Bus Type: USB
+Removable Media: Yes
+Cylinders: 973
+Heads: 255
+Sectors per Track: 63
+Bytes per Sector: 512
+Logical Sector Size: 512 Bytes
+Physical Sector Size: 4096 Bytes
+Total Physical Sectors: 15,633,408
+Device Physical Size: 8,004,304,896 Bytes (7.45 GiB)
+
+----------------------------------------------------------------
+
+Image Acquisition Information:
+Acquisition started: Wed Oct 28 10:15:22 2026
+Acquisition finished: Wed Oct 28 10:18:34 2026
+Elapsed Acquisition Time: 3 minutes, 12 seconds
+Average Throughput: 41.6 MB/s
+Destination Image Format: E01 (Expert Witness Format)
+Destination Directory: D:\MicroProject08_DiskForensics\02_Disk_Images
+Target Image Filename: MP08_USB.E01
+Fragment / Segment Size: 1500 MB
+Compression Setting: 6 (Standard Deflate)
+Image Verification Enabled: Yes
+
+----------------------------------------------------------------
+
+Original Device Checksum Information:
+MD5 Checksum:   556b81f60ee3507a47d7127982419091
+SHA-1 Checksum: e7c8b241dfa98c7634f19b1390d452a36b3240e1
+
+----------------------------------------------------------------
+
+Image Verification Results:
+Verification started: Wed Oct 28 10:18:35 2026
+Verification finished: Wed Oct 28 10:20:12 2026
+Elapsed Verification Time: 1 minute, 37 seconds
+
+MD5 Hash Calculated: 556b81f60ee3507a47d7127982419091
+MD5 Hash Verified:   556b81f60ee3507a47d7127982419091 : MATCH (VERIFIED)
+
+SHA-1 Hash Calculated: e7c8b241dfa98c7634f19b1390d452a36b3240e1
+SHA-1 Hash Verified:   e7c8b241dfa98c7634f19b1390d452a36b3240e1 : MATCH (VERIFIED)
+
+Bad Sectors Encountered: 0
+Verification Status: Image created successfully and verified without errors.
+Integrity Conclusion: Bit-for-bit physical acquisition verified. Evidence preserved in accordance with forensic integrity principles.
+

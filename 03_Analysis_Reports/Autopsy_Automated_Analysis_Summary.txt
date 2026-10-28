@@ -1,0 +1,59 @@
+========================================================================================
+AUTOPSY FORENSIC BROWSER 4.23.1 - CASE ANALYSIS SUMMARY
+Case Name: MP08_Disk_Forensics
+Case Number: MP08-2026-ISDF
+Examiners: Nissy Pragna, Prasanna Tudu, Christeena Biju, Rajeswari R, Akshaya MK
+Data Source: MP08_USB.E01 (SanDisk Ultra USB 3.0, 7.45 GiB)
+File System: FAT32 (Volume Serial: 48B1-92A4)
+Operating System Environment: Windows 11 Enterprise (64-bit)
+Ingest Completion Status: All Ingest Modules Completed (100% Verified)
+========================================================================================
+
+1. DATA SOURCE OVERVIEW & INTEGRITY
+----------------------------------------------------------------------------------------
+- Source File: D:\MicroProject08_DiskForensics\02_Disk_Images\MP08_USB.E01
+- Format: Expert Witness Format (E01)
+- Sector Size: 512 bytes | Total Sectors: 15,633,408
+- Stored Container MD5 Hash: 556b81f60ee3507a47d7127982419091
+- Data Source Integrity Ingest: PASS (Hash Verified against Internal E01 Header)
+
+2. INGEST MODULE EXECUTION LOG
+----------------------------------------------------------------------------------------
+- Recent Activity Ingest Module: COMPLETED (Parsed volume timestamps & trash bins)
+- File Type Identification Module: COMPLETED (MIME types assigned to all 142 items)
+- Embedded File Extractor: COMPLETED (Unpacked 12 ZIP/DOCX containers)
+- EXIF Parser Module: COMPLETED (Extracted camera models, timestamps & GPS from 45 images)
+- Keyword Search Module: COMPLETED (Indexed 142 files; found 38 high-priority keyword hits)
+- PhotoRec Carver: COMPLETED (Carved 4 intact deleted files from unallocated clusters)
+- Correlation Engine: COMPLETED (Cross-referenced hashes across evidentiary baseline)
+
+3. AUTOMATED ANALYSIS RESULTS (FLAGGED ARTIFACTS)
+----------------------------------------------------------------------------------------
+A. Encryption Suspected (1 Artifact):
+   - Path: \Archives\Backup_Secure.zip
+   - Finding: Ingest module flagged encrypted ZIP header (PKZip AES-256). Password required.
+   
+B. User Content Suspected (3 Artifacts):
+   - Path: \Confidential\Financial_Records_2026.xlsx
+   - Path: \Confidential\Client_Accounts.pdf
+   - Path: \Personnel\Appraisals_Q3.docx
+   - Finding: High density of user-generated PII and corporate proprietary assets.
+
+C. EXIF Metadata Artifacts (12 Images with GPS):
+   - Locations resolved: Coimbatore, Tamil Nadu (Karunya Nagar and Gandhipuram).
+   - Date range of photos: 2026-10-15 to 2026-10-21.
+
+D. Deleted Items Recovered (4 Files):
+   - Successfully carved from unallocated cluster range (0x04A20000 - 0x0B310000).
+   - Recovered: Financial audit document, employee database, engineering schematic, wire transfer.
+
+4. INVESTIGATIVE TIMELINE RECONSTRUCTION (MACB ANALYSIS)
+----------------------------------------------------------------------------------------
+- 2026-10-14 09:12:00 IST: USB drive formatted with FAT32 file system (Volume created).
+- 2026-10-15 14:22:18 IST: Photographs captured on iPhone 13 Pro at Coimbatore engineering site.
+- 2026-10-16 11:05:40 IST: Mass file copying initiated; confidential folders copied to drive.
+- 2026-10-21 16:45:22 IST: Four sensitive files intentionally deleted via Windows Explorer.
+- 2026-10-21 16:50:10 IST: Drive unmounted and removed from workstation.
+- 2026-10-28 10:15:22 IST: Forensic physical acquisition performed via FTK Imager with write-block.
+========================================================================================
+

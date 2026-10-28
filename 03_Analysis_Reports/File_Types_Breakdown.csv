@@ -1,0 +1,10 @@
+Category,Count,Description,Investigative Relevance
+Documents,28,"Office Documents (DOCX, XLSX, PDF, TXT)","Contains company memos, financial summaries, project roadmaps"
+Images & Photos,45,"JPEG and PNG image files","Photos taken with mobile device; 12 images contain EXIF GPS metadata"
+Archives,12,"ZIP and RAR compressed archives","1 archive detected with password protection (suspected encrypted exfiltration)"
+Executables & Binaries,4,"Windows portable executables (.exe, .dll)","Utility tools copied to USB drive"
+Audio & Video,6,"Audio recordings and MP4 video snippets","Meeting recordings found in subdirectories"
+Operating System Artifacts,18,"System Volume Information, $RECYCLE.BIN, index files","Volume timestamps, GUID, and deletion records"
+Unallocated & Carved,29,"Carved fragments from unallocated clusters","4 deleted files recovered successfully with 100% integrity"
+Total Processed Files,142,"Full disk inventory across all sectors","Complete physical volume traversal completed"
+
