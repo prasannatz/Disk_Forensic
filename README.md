@@ -66,7 +66,7 @@ The analysis adheres to standard digital evidence processing guidelines (aligned
 
 ```bash
 # Clone the repository
-git clone https://github.com/<prasannatz/Disk_Forensic.git
+git clone https://github.com/prasannatz/Disk_Forensic.git
 cd Disk_Forensic
 
 # Install dependencies
